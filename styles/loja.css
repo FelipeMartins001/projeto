@@ -1,0 +1,100 @@
+:root {
+    --blue: #4ea8de;
+    --blue-dark: #1e6f9f;
+    --purple: #8284fa;
+    --purple-dark: #5e60ce;
+  
+    --gray-100: #f2f2f2;
+    --gray-200: #d9d9d9;
+    --gray-300: #808080;
+    --gray-400: #333333;
+    --gray-500: #262626;
+    --gray-600: #1a1a1a;
+    --gray-700: #0d0d0d;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  
+  /*Div criada, para ser a parte do topo*/
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .navbar a {
+    font-size: 75%;
+    padding: 25px;
+    font-weight: 700;
+    color: var(--gray-400);
+    text-decoration: none;
+    transform: color 2s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: var(--blue);
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 1rem;
+  }
+
+
+
+ .filtro {
+  /*defini a altura e largura do filtro legal ne (vou anotar pra nao esquecer dessa vez)*/
+    height: auto;
+    width: 125px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    width: 120;
+    
+    
+  }
+.filtro a {
+    font-size: 75%;
+
+    color: #222;
+    padding: 20px;
+    font-weight: 700;
+    color: var(--gray-400);
+    text-decoration: none;
+    transform: color 2s ease-in-out;
+  }
+
+  .filtro a:hover {
+    color: var(--blue);
+  }
+
+  section {
+    display: flex;
+  }
+
+  .roupas {
+    display: inline;
+    align-items: start;
+    padding: 50px;
+    width: 60vw;
+  }
+
+
+  

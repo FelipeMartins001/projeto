@@ -1,0 +1,103 @@
+:root {
+  --blue: #4ea8de;
+  --blue-dark: #1e6f9f;
+  --purple: #8284fa;
+  --purple-dark: #5e60ce;
+
+  --gray-100: #f2f2f2;
+  --gray-200: #d9d9d9;
+  --gray-300: #808080;
+  --gray-400: #333333;
+  --gray-500: #262626;
+  --gray-600: #1a1a1a;
+  --gray-700: #0d0d0d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+
+/*Div criada, para ser a parte do topo*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar a {
+  font-size: 75%;
+  padding: 25px;
+  font-weight: 700;
+  color: var(--gray-400);
+  text-decoration: none;
+  transform: color 2s ease-in-out;
+}
+
+.navbar a:hover {
+  color: var(--blue);
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
+
+section {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 100%;
+  height: auto;
+  /*quebrou a linha da direita pra prosseguir pra baixo (eu rachei a cabeça por isso).*/
+  flex-wrap: wrap;
+
+}
+
+
+img {
+  display: flex;
+  height: 100;
+  border-radius: 8px;
+}
+
+
+.bot {
+  padding: 0 140px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.2rem;
+
+}
+
+.social-media {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.rodape {
+  display: flex;
+  gap: 1rem;
+  font-size: small;
+  gap: 2.5rem;
+  
+}
+
+.rodape a {
+  color: gray;
+  text-decoration: none;
+}
+
